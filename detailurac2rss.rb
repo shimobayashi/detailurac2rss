@@ -38,7 +38,7 @@ rss = RSS::Maker.make('2.0') {|rss|
     item.link = link_url
     item.guid.content = thread_no
     item.guid.isPermaLink = false
-    item.description = %Q(<img src="#{image_url}" height="500"><br>#{thread_comments})
+    item.description = %Q(<img src="#{image_url}" height="600"><br>#{thread_comments})
     item.date = Time.now
   }
 }
