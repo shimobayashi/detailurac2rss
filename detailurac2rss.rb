@@ -22,7 +22,7 @@ threads = []
 rss = RSS::Maker.make('2.0') {|rss|
   rss.channel.title = 'detailurac2rss'
   rss.channel.description = 'Commented entries from detailurac'
-  rss.channel.link = 'https://github.com/shimobayashi/gunosy2feed' #XXX
+  rss.channel.link = 'https://github.com/shimobayashi/detailurac2rss'
 
   threads.each {|t|
     # 画像検索のURLを取得する
